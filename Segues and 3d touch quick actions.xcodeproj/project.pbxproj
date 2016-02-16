@@ -40,7 +40,7 @@
 		933B94021C6F228F004BACC3 = {
 			isa = PBXGroup;
 			children = (
-				933B940D1C6F228F004BACC3 /* Segues Example */,
+				933B940D1C6F228F004BACC3 /* Segues and 3d touch quick actions */,
 				933B940C1C6F228F004BACC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		933B940D1C6F228F004BACC3 /* Segues Example */ = {
+		933B940D1C6F228F004BACC3 /* Segues and 3d touch quick actions */ = {
 			isa = PBXGroup;
 			children = (
 				933B940E1C6F228F004BACC3 /* AppDelegate.swift */,
@@ -64,7 +64,8 @@
 				933B94171C6F228F004BACC3 /* LaunchScreen.storyboard */,
 				933B941A1C6F228F004BACC3 /* Info.plist */,
 			);
-			path = "Segues Example";
+			name = "Segues and 3d touch quick actions";
+			path = "Segues and 3d touch quick actions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,7 +84,7 @@
 			dependencies = (
 			);
 			name = "Segues and 3d touch quick actions";
-			productName = "Segues Example";
+			productName = "Segues and 3d touch quick actions";
 			productReference = 933B940B1C6F228F004BACC3 /* Segues and 3d touch quick actions.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -254,7 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Segues Example/Info.plist";
+				INFOPLIST_FILE = "Segues and 3d touch quick actions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lucascaton.segues-and-3d-touch-quick-actions";
 				PRODUCT_NAME = "Segues and 3d touch quick actions";
@@ -265,7 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Segues Example/Info.plist";
+				INFOPLIST_FILE = "Segues and 3d touch quick actions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lucascaton.segues-and-3d-touch-quick-actions";
 				PRODUCT_NAME = "Segues and 3d touch quick actions";
