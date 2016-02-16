@@ -22,25 +22,28 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemIconType</key>
-			<string>UIApplicationShortcutIconTypeCloud</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>First view</string>
-			<key>UIApplicationShortcutItemType</key>
+
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemType</key>
+            <string>br.com.lucascaton.second</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Second view</string>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeCompose</string>
+        </dict>
+
+        <dict>
+            <key>UIApplicationShortcutItemType</key>
 			<string>br.com.lucascaton.first</string>
-		</dict>
-		<dict>
-			<key>UIApplicationShortcutItemIconType</key>
-			<string>UIApplicationShortcutIconTypeCompose</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>Second view</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>br.com.lucascaton.second</string>
-		</dict>
-	</array>
+            <key>UIApplicationShortcutItemTitle</key>
+			<string>First view</string>
+            <key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeCloud</string>
+        </dict>
+    </array>
+
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
